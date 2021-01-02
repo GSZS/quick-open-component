@@ -4,18 +4,18 @@
   "publisher": "GSZS",
   "description": "快速打开当前文件然后在谷歌浏览器中显示",
   "qna": false,
-  "version": "0.0.1",
-  "homepage": "https://github.com/GSZS/switch-theme",
+  "version": "0.2.0",
+  "homepage": "https://github.com/GSZS/quick-open-component",
   "bugs": {
-    "url": "https://github.com/GSZS/switch-theme/issues"
+    "url": "https://github.com/GSZS/quick-open-component/issues"
   },
   "keywords": [
-    "theme",
     "vscode",
     "vscode-extension",
-    "switch theme"
+    "component",
+    "open component"
   ],
-  "icon": "assets/switch-theme.png",
+  "icon": "assets/quick-open-component.png",
   "engines": {
     "vscode": "^1.49.0"
   },
@@ -81,7 +81,6 @@
   },
   "_id": "vscode-switch-theme@0.1.0",
   "dependencies": {
-    "dayjs": "^1.9.1",
     "open": "^7.3.0"
   },
   "license": "MIT"
