@@ -1,2 +1,1 @@
-# quick-open-component
-通过VSCode扩展在谷歌浏览器中快速打开当前Vue组件
+### 快速打开当前文件然后在谷歌浏览器中显示
