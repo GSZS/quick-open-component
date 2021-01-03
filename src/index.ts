@@ -2,7 +2,7 @@
  * @ Author: 幸焕光
  * @ Create Time: 2020-12-30 14:30:17
  * @ Modified by: 幸焕光
- * @ Modified time: 2021-01-02 21:29:13
+ * @ Modified time: 2021-01-02 22:16:46
  * @ Description: 核心文件
  * @ URL:
  */
@@ -23,14 +23,9 @@ export class QuickOpenComponent {
       url = _path && _path.fsPath,
       browser = getStandBrowserName();
     // "/Users/gszs/Desktop/test/aa.vue";
-    let newUrl = this.formateURLFunction(url as string);
+    let newUrl = this.formateURLFunction(url as string).replace(/index$/g, "");
     newUrl = this.protocalHost + newUrl;
     console.log("newUrl", newUrl);
     open(newUrl, { app: browser }).catch((error) => console.error(error));
   }
 }
-
-// /Users/gssz/web/www/ops/src/views/adsl/adsl_error.vue;
-// /adsl/adsl_error
-// router: /adsl/adsl_error
-// result: https://dev.com:1997/adsl/adsl_error
