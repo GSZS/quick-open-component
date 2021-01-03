@@ -4,7 +4,7 @@
   "publisher": "GSZS",
   "description": "快速打开当前文件然后在谷歌浏览器中显示",
   "qna": false,
-  "version": "0.2.0",
+  "version": "0.2.1",
   "homepage": "https://github.com/GSZS/quick-open-component",
   "bugs": {
     "url": "https://github.com/GSZS/quick-open-component/issues"
